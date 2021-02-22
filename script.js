@@ -22,7 +22,7 @@ if (this !== e.target) {
     const xWalk = Math.round((x/width * walk) - (walk/2));
     const yWalk = Math.round((y/width * walk) - (walk/2));
     //this equation is to make total of 50px for the shadow travel, essentially making bottom right corner 25 and top left -25 (making total of 100px traveled)
-    text.style.textShadow = /*default: `10px 10px 3px red`*/ `${xWalk}px ${yWalk}px 3px #94bbe9`
+    text.style.textShadow = /*default: `10px 10px 3px red`*/ `${xWalk}px ${yWalk}px 3px #94bbe9`;
 }
 
 main.addEventListener("mousemove", shadow);
